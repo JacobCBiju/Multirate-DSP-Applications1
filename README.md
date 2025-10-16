@@ -9,6 +9,8 @@ Music Tempo Adjustment
 The goal of this project is to develop and implement a digital signal processing (DSP) technique using Python in the Google Colab environment to achieve Time-Scale Modification (TSM) of audio signals. The primary objective is to adjust the playback tempo—either by stretching or compressing time—based on a user-defined factor, while maintaining the original pitch and avoiding noticeable artifacts. This is accomplished through sophisticated DSP methods such as the Phase Vocoder, applied via the Librosa library, which enables effective separation of the audio signal’s time and frequency components.
 
 
+
+
 **Program**
 
 # 1. INSTALL NECESSARY LIBRARIES
@@ -101,6 +103,6 @@ print("\n✅ Download link generated successfully!")
 <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/05e1d781-8c94-4463-b8ce-e7ac636a5853" />
 
 
-**Conclusion**
+****Conclusion****
 
 This project effectively developed a Music Tempo Adjustment system utilizing the Librosa library within Google Colab. By leveraging the Phase Vocoder algorithm, it successfully addressed the key challenge of altering tempo independently of pitch. The input audio’s duration was modified according to the desired stretch factor (e.g., sped up by 1.25× or slowed down by 0.5×), producing an output where the tempo was adjusted while preserving the original pitch and harmonic content. The implementation offers a reliable and practical example of Time-Scale Modification (TSM) methods, making it well-suited for applications in music production and audio analysis that demand tempo variation without the quality loss typical of basic resampling techniques..
