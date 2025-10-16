@@ -79,11 +79,16 @@ display(Audio(data=y_stretched, rate=sr))
 files.download(output_file)
 print("\nDownload link generated.")
 # =========================================================
+
+
 Original Audio
 yuvan_oru_naalil.mp3
 Tempo Adjusted Audio (Pitch Preserved)
-tempo_adjusted_1.25x_yuvan_oru_naalil.mp3
+[tempo_adjusted_1.25x_yuvan_oru_naalil.mp3](https://github.com/user-attachments/files/22943392/tempo_adjusted_1.25x_yuvan_oru_naalil.mp3)
+
 Waveform
+<img width="946" height="425" alt="image" src="https://github.com/user-attachments/assets/d8c53eb1-f3b6-4ce6-b7d1-1076532531de" />
+
 Conclusion
 ConclusionThe project successfully implemented an efficient Music Tempo Adjustment system using the librosa library in Google
 Colab. By applying the Phase Vocoder algorithm, the core challenge of decoupling tempo and pitch was overcome. The duration of the
